@@ -4,6 +4,7 @@
 /*
 -----------------------------------------------------------------------------------*/
 
+
  jQuery(document).ready(function($) {
 
 /*----------------------------------------------------*/
@@ -102,21 +103,28 @@
 /*	Modal Popup
 ------------------------------------------------------*/
 
-    $('.item-wrap a').magnificPopup({
 
-       type:'inline',
-       fixedContentPos: false,
-       removalDelay: 200,
-       showCloseBtn: false,
-       mainClass: 'mfp-fade'
 
-    });
+    $(document).on('click', '.item-wrap', function () {
+
+       const imgElement = $(this).children().first().children();
+       const imgSrc = imgElement.attr("src");
+       $(this).magnificPopup({
+
+          type: 'image',
+          items: {
+             src: imgSrc
+          }
+       });
+});
+
+
 
     $(document).on('click', '.popup-modal-dismiss', function (e) {
+         
     		e.preventDefault();
     		$.magnificPopup.close();
     });
-
 
 /*----------------------------------------------------*/
 /*	Flexslider
