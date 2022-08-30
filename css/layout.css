@@ -365,38 +365,66 @@ ul#nav li.current a { color: #F06000; }
    -moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.database {
+.sql {
    width: 80%;
    -moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 
-.nodejs {
-   width: 70%;
+.hadoopechosystem{ 
+   width: 60%;
    -moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.c {
-   width: 70%;
+.dataanalysis{ 
+   width: 40%;
    -moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.c\+\+ {
-   width: 70%;
-   -moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.python {
-   width: 50%;
-   -moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.ros {
+.docker-swarm{ 
    width: 80%;
    -moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
+
+.kafka{ 
+   width: 50%;
+   -moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.redis{ 
+   width: 50%;
+   -moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.spark{ 
+   width: 50%;
+   -moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+
+.nodejs {
+   width: 60%;
+   -moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+
+.python {
+   width: 70%;
+   -moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.ros {
+   width: 50%;
+   -moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
 .ai{
+   width: 30%;
+   -moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.deeplearning{
    width: 30%;
    -moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
